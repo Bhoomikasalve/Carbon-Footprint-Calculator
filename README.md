@@ -1,12 +1,44 @@
-# React + Vite
+# 🌱 Carbon Footprint Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that estimates an individual's yearly carbon emissions based on their lifestyle habits such as transportation, electricity usage, and travel frequency.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [View the App on Netlify](https://effortless-longma-b0ed76.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript**
+- **HTML5**
+
+---
+
+## ✨ Features
+
+- Collects multiple lifestyle-related inputs (e.g., car mileage, flights per year)
+- Calculates approximate **CO₂ emissions per year**
+- Dynamic, real-time updates using React state management (`useState`, `useEffect`)
+- Clean and modern **UI using Tailwind CSS**
+- Deployed with **Netlify** for fast access
+
+---
+
+## 📂 Folder Structure
+
+Carbon-Footprint-Calculator/
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.jsx
+│ ├── index.js
+│ └── ...
+├── package.json
+├── tailwind.config.js
+└── README.md
