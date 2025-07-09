@@ -31,14 +31,12 @@ A web application that estimates an individual's yearly carbon emissions based o
 ---
 
 ## 📂 Folder Structure
-
 Carbon-Footprint-Calculator/
-├── public/
-├── src/
-│ ├── components/
-│ ├── App.jsx
-│ ├── index.js
-│ └── ...
-├── package.json
-├── tailwind.config.js
-└── README.md
+├── public/                   # Static assets (if any)
+├── src/                      # Source code (React components, styles, etc.)
+├── README.md                 # Project documentation
+├── eslint.config.js          # ESLint configuration
+├── index.html                # Main HTML file used by Vite
+├── package.json              # Project metadata and dependencies
+├── package-lock.json         # Dependency lock file
+├── vite.config.js            # Vite build tool configuration
